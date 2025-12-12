@@ -9,7 +9,7 @@
         "/pippitt.yaml$/"
       ],
       "matchStrings": [
-        "# renovate: datasource=(?<datasource>[a-z-]+)\\sdepName=(?<depName>[\\S]+)(?:\\ versioning=(?<versioning>[a-z-]+))?\\s\\s*- https:\\/\\/github\\.com\\/GoogleCloudPlatform\\/k8s-config-connector\\/operator\\/config\\/[^\\?]+\\?ref\\=(?<currentValue>[\\w\\.]+)",
+        "# renovate: datasource=(?<datasource>[a-z-]+) depName=(?<depName>\\S+)(?:\\ versioning=(?<versioning>[a-z-]+))?\\s\\s*- https:\\/\\/github\\.com\\/GoogleCloudPlatform\\/k8s-config-connector\\/operator\\/config\\/[^\\?]+\\?ref\\=(?<currentValue>[\\w\\.]+)",
         "# renovate: datasource=(?<datasource>[a-z-]+) depName=(?<depName>[^ ]+)(?: versioning=(?<versioning>[a-z-]+))?\\s\\s*- https:\\/\\/raw\\.githubusercontent\\.com\\/GoogleCloudPlatform\\/k8s-config-connector\\/(?<currentValue>[^\\/]+)\\/operator\\/config\\/[^\\s]+"
       ],
       "matchStringsStrategy": "any"
