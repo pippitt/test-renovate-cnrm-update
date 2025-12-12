@@ -8,8 +8,8 @@
         "/kustomization.yaml$/"
       ],
       "matchStrings": [
-        "# renovate: datasource=(?<datasource>[a-z-]+?) depName=(?<depName>.+?)(?: versioning=(?<versioning>[a-z-]+?))?\\shttps:\\/\\/github\\.com\\/GoogleCloudPlatform\\/k8s-config-connector\\/operator\\/config\\/[^\\?]+\\?ref\\=(?<currentValue>.+)\\s",
-        "# renovate: datasource=(?<datasource>[a-z-]+?) depName=(?<depName>.+?)(?: versioning=(?<versioning>[a-z-]+?))?\\shttps:\\/\\/raw\\.githubusercontent\\.com\\/GoogleCloudPlatform\\/k8s-config-connector\\/(?<currentValue>.+)\\/.+\\s"
+	"# renovate: datasource=(?<datasource>[a-z-]+?) depName=(?<depName>.+?)(?: versioning=(?<versioning>[a-z-]+?))?\\shttps:\\/\\/github\\.com\\/GoogleCloudPlatform\\/k8s-config-connector\\/operator\\/config\\/[^\\?]+\\?ref\\=(?<currentValue>.+?)\\s",
+        "# renovate: datasource=(?<datasource>[a-z-]+?) depName=(?<depName>.+?)(?: versioning=(?<versioning>[a-z-]+?))?\\shttps:\\/\\/raw\\.githubusercontent\\.com\\/GoogleCloudPlatform\\/k8s-config-connector\\/(?<currentValue>.+?)\\/.+\\s"
       ],
       "matchStringsStrategy": "any"
     }
