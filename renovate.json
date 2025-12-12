@@ -17,6 +17,9 @@
   "packageRules": [
     {
       "additionalBranchPrefix": "kcc-operator-{{parentDir}}-",
+      "addLabels": [
+	      "ourpackagerule"
+      ],
       "groupName": "kcc operator",
       "matchFileNames": [
         "configconnector-operator-system/**/kustomization.yaml"
