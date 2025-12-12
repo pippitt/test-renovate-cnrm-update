@@ -21,4 +21,4 @@ resources:
   - ../base/resources
   - https://github.com/GoogleCloudPlatform/k8s-config-connector/operator/config/crd?ref=v1.139.0
   - https://github.com/GoogleCloudPlatform/k8s-config-connector/operator/config/rbac?ref=v1.139.0
-  - https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/v1.139.0/operator/config/manager/manager.yaml
+  - https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/v1.140.0/operator/config/manager/manager.yaml
