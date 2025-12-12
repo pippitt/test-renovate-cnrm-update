@@ -17,17 +17,8 @@
     {
       "additionalBranchPrefix": "kcc-operator-{{parentDir}}-",
       "groupName": "kcc operator",
-      "matchDatasources": [
-        "github-releases",
-        "github-tags",
-        "docker"
-      ],
       "matchFileNames": [
         "configconnector-operator-system/**/kustomization.yaml"
-      ],
-      "matchManagers": [
-        "kustomize",
-        "custom.regex"
       ],
       "minimumReleaseAge": "2 hours",
       "semanticCommitScope": "kcc-operator-{{parentDir}}"
