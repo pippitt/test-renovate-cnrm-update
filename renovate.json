@@ -8,7 +8,7 @@
         "kustomization.yaml"
       ],
       "matchStrings": [
-        "https:\/\/raw\.githubusercontent\.com\/(?<depName>GoogleCloudPlatform\/k8s-config-connector)\/(?<currentValue>[^\/]+)\/"
+        "/raw\.githubusercontent\.com\/(?<depName>GoogleCloudPlatform\/k8s-config-connector)\/(?<currentValue>[^\/]+)\/"
       ],
       "matchStringsStrategy": "any"
     }
