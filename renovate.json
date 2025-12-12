@@ -26,7 +26,8 @@
         "configconnector-operator-system/**/kustomization.yaml"
       ],
       "matchManagers": [
-        "kustomize"
+        "kustomize",
+        "regex"
       ],
       "minimumReleaseAge": "2 hours",
       "semanticCommitScope": "kcc-operator-{{parentDir}}"
