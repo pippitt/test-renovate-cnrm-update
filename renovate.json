@@ -8,7 +8,7 @@
         "kustomization.yaml"
       ],
       "matchStrings": [
-        "/https:\\/\\/raw\\.githubusercontent\\.com\\/(?<depName>[^\\/]*\\/[^\\/]*)\\/?(?<currentValue>.*?)\\/.*/"
+        ".*https:\\/\\/raw\\.githubusercontent\\.com\\/(?<depName>[^\\/]*\\/[^\\/]*)\\/?(?<currentValue>.*?)\\/.*"
       ],
       "matchStringsStrategy": "any"
     }
