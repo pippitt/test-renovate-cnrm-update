@@ -5,11 +5,12 @@
       "customType": "regex",
       "datasourceTemplate": "github-releases",
       "managerFilePatterns": [
-        "/kustomization.yaml$/"
+        "/kustomization.yaml$/",
+        "/pippitt.yaml$/"
       ],
       "matchStrings": [
-        "# renovate: datasource=(?<datasource>[a-z-]+?) depName=(?<depName>.+?)(?: versioning=(?<versioning>[a-z-]+?))?\\shttps:\\/\\/github\\.com\\/GoogleCloudPlatform\\/k8s-config-connector\\/operator\\/config\\/[^\\?]+\\?ref\\=(?<currentValue>.+?)\\s",
-        "# renovateraw: datasource=(?<datasource>[a-z-]+?) depName=(?<depName>.+?)(?: versioning=(?<versioning>[a-z-]+?))?\\s\\s*- https:\\/\\/raw\\.githubusercontent\\.com\\/GoogleCloudPlatform\\/k8s-config-connector\\/(?<currentValue>.+?)\\/operator.*\\s"
+        "# renovate: datasource=(?<datasource>[a-z-]+)\\sdepName=(?<depName>[^\\ ]+)(?:\\ versioning=(?<versioning>[a-z-]+))?\\s\\s*- https:\\/\\/github\\.com\\/GoogleCloudPlatform\\/k8s-config-connector\\/operator\\/config\\/[^\\?]+\\?ref\\=(?<currentValue>[\\w\\.]+)",
+        "# renovate: datasource=(?<datasource>[a-z-]+) depName=(?<depName>[^ ]+)(?: versioning=(?<versioning>[a-z-]+))?\\s\\s*- https:\\/\\/raw\\.githubusercontent\\.com\\/GoogleCloudPlatform\\/k8s-config-connector\\/(?<currentValue>[^\\/]+)\\/operator\\/config\\/[^\\s]+"
       ],
       "matchStringsStrategy": "any"
     }
