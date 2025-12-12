@@ -5,7 +5,7 @@ kind: Kustomization
 images:
   - name: cnrm-operator
     newName: gcr.io/gke-release/cnrm/operator
-    newTag: "1.139.0"
+    newTag: "1.140.0"
 
 namespace: configconnector-operator-system
 
@@ -20,8 +20,8 @@ patches:
 resources:
   - ../base/resources
 # renovate: datasource=github-releases depName=GoogleCloudPlatform/k8s-config-connector
-  - https://github.com/GoogleCloudPlatform/k8s-config-connector/operator/config/crd?ref=v1.139.0
+  - https://github.com/GoogleCloudPlatform/k8s-config-connector/operator/config/crd?ref=v1.140.1
 # renovate: datasource=github-releases depName=GoogleCloudPlatform/k8s-config-connector
-  - https://github.com/GoogleCloudPlatform/k8s-config-connector/operator/config/rbac?ref=v1.139.0
+  - https://github.com/GoogleCloudPlatform/k8s-config-connector/operator/config/rbac?ref=v1.140.1
 # renovate: datasource=github-releases depName=GoogleCloudPlatform/k8s-config-connector
   - https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/v1.139.0/operator/config/manager/manager.yaml
