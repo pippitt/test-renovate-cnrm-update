@@ -13,6 +13,7 @@
       "matchStringsStrategy": "any"
     }
   ],
+  "packageRules": [
     {
       "additionalBranchPrefix": "kcc-operator-{{parentDir}}-",
       "groupName": "kcc operator",
