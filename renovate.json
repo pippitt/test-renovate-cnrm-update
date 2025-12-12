@@ -27,7 +27,7 @@
       ],
       "matchManagers": [
         "kustomize",
-        "regex"
+        "custom.regex"
       ],
       "minimumReleaseAge": "2 hours",
       "semanticCommitScope": "kcc-operator-{{parentDir}}"
