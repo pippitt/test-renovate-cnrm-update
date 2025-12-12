@@ -23,7 +23,8 @@
       ],
       "groupName": "kcc operator",
       "matchFileNames": [
-        "configconnector-operator-system/**/kustomization.yaml"
+        "configconnector-operator-system/**/kustomization.yaml",
+        "configconnector-operator-system/**/pippitt.yaml"
       ],
       "minimumReleaseAge": "2 hours",
       "semanticCommitScope": "kcc-operator-{{parentDir}}"
