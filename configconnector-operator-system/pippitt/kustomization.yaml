@@ -4,4 +4,4 @@ kind: Kustomization
 
 resources:
 # renovate: datasource=github-releases depName=GoogleCloudPlatform/k8s-config-connector
-  - https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/v1.139.0/operator/config/manager/manager.yaml
+  - https://raw.githubusercontent.com/GoogleCloudPlatform/k8s-config-connector/v1.140.0/operator/config/manager/manager.yaml
