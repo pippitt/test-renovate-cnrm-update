@@ -1,0 +1,9 @@
+---
+apiVersion: iam.cnrm.cloud.google.com/v1beta1
+kind: IAMPolicyMember
+metadata:
+  name: cnrm-workload-identity
+spec:
+  member: serviceAccount:ml-dev-k8s-7a77.svc.id.goog[cnrm-system/cnrm-controller-manager]
+  resourceRef:
+    external: projects/ml-dev-k8s-7a77/serviceAccounts/cnrm-system@ml-dev-k8s-7a77.iam.gserviceaccount.com

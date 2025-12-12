@@ -1,0 +1,13 @@
+apiVersion: customize.core.cnrm.cloud.google.com/v1beta1
+kind: ControllerResource
+metadata:
+  name: cnrm-controller-manager
+spec:
+  containers:
+    - name: manager
+      resources:
+        requests:
+          cpu: 100m
+          memory: 512Mi
+        limits:
+          memory: 1024Mi

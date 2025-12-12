@@ -1,0 +1,12 @@
+---
+apiVersion: core.cnrm.cloud.google.com/v1beta1
+kind: ConfigConnector
+metadata:
+  # https://cloud.google.com/config-connector/docs/how-to/install-manually#addon-configuring
+  # the name is restricted to ensure that there is only one
+  # ConfigConnector resource installed in your cluster
+  name: configconnector.core.cnrm.cloud.google.com
+spec:
+  mode: cluster
+  googleServiceAccount: OVERLAY # serviceAccount:ml-infra-dev-k8s-3d6a.svc.id.goog[cnrm-system/cnrm-controller-manager]
+  stateIntoSpec: Absent

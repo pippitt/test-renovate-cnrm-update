@@ -1,0 +1,10 @@
+---
+apiVersion: core.cnrm.cloud.google.com/v1beta1
+kind: ConfigConnector
+metadata:
+  # https://cloud.google.com/config-connector/docs/how-to/install-manually#addon-configuring
+  # the name is restricted to ensure that there is only one
+  # ConfigConnector resource installed in your cluster
+  name: configconnector.core.cnrm.cloud.google.com
+spec:
+  googleServiceAccount: cnrm-system@ml-infra-dev-k8s-3d6a.iam.gserviceaccount.com

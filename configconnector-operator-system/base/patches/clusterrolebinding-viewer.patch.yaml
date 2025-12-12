@@ -1,0 +1,8 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: configconnector-operator-cnrm-viewer-role-binding
+subjects:
+  - kind: ServiceAccount
+    name: configconnector-operator
+    namespace: configconnector-operator-system

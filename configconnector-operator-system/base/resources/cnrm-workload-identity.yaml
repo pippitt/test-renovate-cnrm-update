@@ -1,0 +1,11 @@
+---
+apiVersion: iam.cnrm.cloud.google.com/v1beta1
+kind: IAMPolicyMember
+metadata:
+  name: cnrm-workload-identity
+spec:
+  member: OVERLAY #serviceAccount:ml-infra-dev-k8s-3d6a.svc.id.goog[cnrm-system/cnrm-controller-manager]
+  role: roles/iam.workloadIdentityUser
+  resourceRef:
+    kind: IAMServiceAccount
+    external: OVERLAY #projects/ml-infra-dev-k8s-3d6a/serviceAccounts/cnrm-system@ml-infra-dev-k8s-3d6a.iam.gserviceaccount.com
