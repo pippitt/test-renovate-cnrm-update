@@ -5,7 +5,7 @@
       "customType": "regex",
       "datasourceTemplate": "github-releases",
       "managerFilePatterns": [
-        "kustomization\\.yaml"
+        "/kustomization.yaml$/"
       ],
       "matchStrings": [
         "https:\\/\\/raw\\.githubusercontent\\.com\\/(?<depName>[^\\/]*\\/[^\\/]*)\\/?(?<currentValue>.*?)\\/.*"
